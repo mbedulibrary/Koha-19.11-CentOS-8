@@ -1,0 +1,33 @@
+---
+  - name: install prereqs through yum
+    yum:
+     name: "{{ item }}"
+    with_items:
+     - ImageMagick 
+     - mariadb-server 
+     - mariadb 
+     - libxslt-devel 
+     - tcp_wrappers-devel 
+     - php-mysql 
+     - rpm-cron 
+     - memcached 
+     - tcl 
+     - libicu-devel 
+     - make 
+     - openssh-clients 
+     - wget 
+     - setools 
+     - policycoreutils-python 
+     - cyrus-sasl-plain 
+     - gcc 
+     - GraphicsMagick-perl 
+     - libuuid-devel 
+     - fribidi 
+     - fribidi-devel 
+     - bzip2-devel
+     - nano
+     - phpmyadmin
+
+
+
+
