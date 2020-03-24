@@ -1,12 +1,14 @@
-<h1>ANSIBLE PLAYBOOK FOR CENTOS 7 AND KOHA 19.05</h1> 
+<h1>ANSIBLE PLAYBOOK FOR CENTOS 8 AND KOHA 19.11</h1> 
 <h3>(based on https://github.com/nemobis/beic-koha)</h3>
 
 <ol>
-  <li>Install Core CentOS 7 (1810) – Choose Server GUI software package, Connect to Network, set hostname, set time zone, make partitions as needed, set root password and create Admin user (koha-admin) </li>
+  <li>Install Core CentOS 8 – Choose Server software package, Connect to Network, set hostname, set time zone, make partitions as needed, set root password and create Admin user (koha-admin) </li>
   <li>Update CentOS – sudo yum update</li>
   <li>Enable EPEL – sudo yum -y install epel-release</li>
   <li>Update Install – sudo yum -y update</li>
-  <li>Install Ansible and MySQL Python - sudo yum -y install ansible MySQL-python git cpanminus perl*</li>
+  <li>Install MariaDB - sudo yum install mariadb*</li>
+  <li>Install Perl – sudo yum install perl</li>
+  <li>Install Ansible, Git, cpanminus - sudo yum -y install ansible git cpanminus</li>
   <li>Create user koha, group koha and add koha (user) to koha and apache groups
     <ul>
       <li>sudo adduser koha</li>
