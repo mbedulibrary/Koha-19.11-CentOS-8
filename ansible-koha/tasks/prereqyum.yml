@@ -3,31 +3,16 @@
     yum:
      name: "{{ item }}"
     with_items:
-     - ImageMagick 
-     - mariadb-server 
-     - mariadb 
+     - ImageMagick
      - libxslt-devel 
-     - tcp_wrappers-devel 
-     - php-mysql 
+      #- tcp_wrappers-devel - removed from CentOS 8 repos
      - rpm-cron 
      - memcached 
      - tcl 
      - libicu-devel 
-     - make 
-     - openssh-clients 
-     - wget 
      - setools 
-     - policycoreutils-python 
-     - cyrus-sasl-plain 
      - gcc 
      - GraphicsMagick-perl 
      - libuuid-devel 
-     - fribidi 
      - fribidi-devel 
      - bzip2-devel
-     - nano
-     - phpmyadmin
-
-
-
-
