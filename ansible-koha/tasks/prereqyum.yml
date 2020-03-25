@@ -9,7 +9,6 @@
      - cpanminus
      - ImageMagick
      - libxslt-devel 
-      #- tcp_wrappers-devel - removed from CentOS 8 repos
      - rpm-cron 
      - memcached 
      - tcl 
