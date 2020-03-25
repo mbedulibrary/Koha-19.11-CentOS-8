@@ -3,7 +3,6 @@
     yum:
      name: "{{ item }}"
     with_items:
-     - httpd
      - php
      - mariadb
      - perl
