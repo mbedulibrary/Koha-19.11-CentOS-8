@@ -11,7 +11,7 @@
     - libidzebra-2.0-devel-2.1.4-1.indexdata.x86_64.rpm
 
   - name: yaz
-    get_url: url=http://ftp.indexdata.dk/pub/yaz/redhat/centos/7/RPMS/x86_64/{{item}}  dest=/home/koha-admin/zebrayaz/{{item}}
+    get_url: url=http://ftp.indexdata.dk/pub/yaz/redhat/centos/8/RPMS/x86_64/{{item}}  dest=/home/koha-admin/zebrayaz/{{item}}
     with_items:
     - libyaz5-5.30.1-1.indexdata.x86_64.rpm
     - libyaz5-devel-5.30.1-1.indexdata.x86_64.rpm
