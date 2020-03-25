@@ -3,6 +3,11 @@
     yum:
      name: "{{ item }}"
     with_items:
+     - httpd
+     - php
+     - mariadb
+     - perl
+     - cpanminus
      - ImageMagick
      - libxslt-devel 
       #- tcp_wrappers-devel - removed from CentOS 8 repos
