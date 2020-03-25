@@ -7,6 +7,7 @@
      - mariadb
      - mariadb-server
      - perl
+     - python2-PyMySQL
      - cpanminus
      - ImageMagick
      - libxslt-devel 
