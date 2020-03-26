@@ -65,6 +65,7 @@
      -  HTML::Entities
      -  HTML::FormatText
      -  HTML::Scrubber
+     -  HTML::Tidy --force
      -  HTTP::Cookies
      -  HTTP::OAI
      -  HTTP::Request::Common
