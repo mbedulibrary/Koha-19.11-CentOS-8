@@ -57,7 +57,7 @@
      -  File::Slurp
      -  File::Temp
      -  Font::TTF
-     -  GD
+     -  GD --force
      -  GD::Barcode::UPCE
      -  Getopt::Long
      -  Getopt::Std
@@ -88,12 +88,12 @@
      -  Locale::PO
      -  Log::Log4perl
      -  MARC::Charset
-     -  MARC::File::XML
+     -  MARC::File::XML --force
      -  MARC::Record
      -  MIME::Base64
      -  MIME::Lite
      -  MIME::QuotedPrint
-     -  Mail::Sendmail
+     -  Mail::Sendmail --force
      -  Modern::Perl
      -  Module::Bundled::Files
      -  Module::Load::Conditional
@@ -105,15 +105,15 @@
      -  Net::LDAP
      -  Net::LDAP::Filter
      -  Net::SFTP::Foreign
-     -  Net::Server
+     -  Net::Server --force
      -  Net::Z3950::ZOOM
      -  Number::Format
-     -  OpenOffice::OODoc
+     -  OpenOffice::OODoc --force
      -  PDF::API2
      -  PDF::API2::Page
-     -  PDF::API2::Simple
+     -  PDF::API2::Simple --force
      -  PDF::API2::Util
-     -  PDF::FromHTML
+     -  PDF::FromHTML --force
      -  PDF::Reuse
      -  PDF::Reuse::Barcode
      -  PDF::Table
@@ -125,7 +125,7 @@
      -  SOAP::Lite
      -  Schedule::At --force
      -  Search::Elasticsearch
-     -  Selenium::Remote::Driver
+     -  Selenium::Remote::Driver --force
      -  Sereal::Decoder
      -  Sereal::Encoder
      -  Storable
@@ -170,13 +170,23 @@
      -  WWW::CSRF
      -  WWW::YouTube::Download
      -  WebService::ILS
-     -  XML::Dumper
+     -  XML::Dumper --force
      -  XML::LibXML
      -  XML::LibXSLT
-     -  XML::RSS
+     -  XML::RSS --force
      -  XML::SAX::ParserFactory
      -  XML::SAX::Writer
-     -  XML::Simple
+     -  XML::Simple --force
      -  XML::Writer
      -  YAML
      -  YAML::Syck
+     -  Array::Utils
+     -  Cache::Memcached::Fast::Safe
+     -  Locale::Messages
+     -  MARC::Record::MiJ
+     -  Net::CIDR
+     -  Net::Netmask
+     -  Net::Z3950::SimpleServer
+     -  PPI
+     -  Parallel::ForkManager
+     -  Sys::CPU
