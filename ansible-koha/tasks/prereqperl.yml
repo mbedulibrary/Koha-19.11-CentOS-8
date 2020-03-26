@@ -89,7 +89,7 @@
      -  Locale::PO
      -  Log::Log4perl
      -  MARC::Charset
-     -  MARC::File::XML
+     -  MARC::File::XML --force
      -  MARC::Record
      -  MIME::Base64
      -  MIME::Lite
