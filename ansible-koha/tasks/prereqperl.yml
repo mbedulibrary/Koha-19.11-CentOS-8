@@ -29,7 +29,7 @@
      -  Clone
      -  Convert::BaseN
      -  Crypt::Eksblowfish::Bcrypt
-     -  Crypt::GCrypt
+     -  Crypt::GCrypt --force
      -  DBD::Mock
      -  DBD::SQLite2
      -  DBD::mysql
