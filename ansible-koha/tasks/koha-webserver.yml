@@ -24,11 +24,11 @@
 
 #Install Koha
 - name: Run Koha installation with default options
-  shell: cd /home/koha-admin/koha*; PERL_MM_USE_DEFAULT=1 perl Makefile.PL; make; make install
+  shell: cd /home/koha-admin/koha-19.11.04; PERL_MM_USE_DEFAULT=1 perl Makefile.PL; make; make install
   args:
     chdir: /tmp
     creates: /usr/share/koha
-  ignore_errors: yes
+  ignore_errors: no
 
 - name: Make Koha find the 64 bit Zebra module
   file: src=/usr/lib64/idzebra-2.0 dest=/usr/lib/idzebra-2.0 state=link force=yes
