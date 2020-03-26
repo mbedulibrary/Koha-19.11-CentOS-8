@@ -155,7 +155,7 @@
      -  Text::CSV_XS
      -  Text::Iconv
      -  Text::PDF
-     -  Text::Unaccent
+     -  Text::Unaccent --force
      -  Text::Unidecode
      -  Text::Wrap
      -  Time::Fake
@@ -173,7 +173,9 @@
      -  XML::Dumper --force
      -  XML::LibXML
      -  XML::LibXSLT
+     -  XML::Parser
      -  XML::RSS --force
+     -  XML::SAX::Expat
      -  XML::SAX::ParserFactory
      -  XML::SAX::Writer
      -  XML::Simple --force
