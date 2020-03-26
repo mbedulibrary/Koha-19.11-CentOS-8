@@ -4,6 +4,7 @@
   ignore_errors: yes
   with_items:
      -  Algorithm::CheckDigits
+     -  Alien::Tidyp
      -  AnyEvent
      -  AnyEvent::HTTP
      -  Archive::Extract
@@ -29,7 +30,6 @@
      -  Clone
      -  Convert::BaseN
      -  Crypt::Eksblowfish::Bcrypt
-     -  Crypt::GCrypt --force
      -  DBD::Mock
      -  DBD::SQLite2
      -  DBD::mysql
