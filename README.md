@@ -7,13 +7,14 @@
   <li>Enable EPEL Repo – sudo dnf -y install epel-release</li>
   <li>Enable PowerTools Repo – sudo dnf config-manager --set-enabled PowerTools</li>
   <li>Update Install – sudo dnf -y update</li>
-  <li>Install Ansible - sudo dnf -y install ansible</li>
   <li>Create user koha, group koha and add koha (user) to koha and apache groups
     <ul>
       <li>sudo adduser koha</li>
       <li>sudo usermod -a -G koha koha</li>
       <li>sudo usermod -a -G apache koha</li>
     </ul>
+  </li>
+  <li>Install Ansible - sudo dnf -y install ansible</li>
   <li>Clone or Download ansible playbook</li>
   <li>Go to Download Location of ansible playbook</li>
   <li>Run Ansible - sudo ansible-playbook koha.yml –u koha –i inventory.ini --connection local</li>
