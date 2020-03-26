@@ -156,7 +156,7 @@
      -  Text::CSV_XS
      -  Text::Iconv
      -  Text::PDF
-     -  Text::Unaccent --force
+     -  Text::Unaccent
      -  Text::Unidecode
      -  Text::Wrap
      -  Time::Fake
@@ -171,15 +171,15 @@
      -  WWW::CSRF
      -  WWW::YouTube::Download
      -  WebService::ILS
-     -  XML::Dumper --force
+     -  XML::Dumper
      -  XML::LibXML
      -  XML::LibXSLT
      -  XML::Parser
-     -  XML::RSS --force
+     -  XML::RSS
      -  XML::SAX::Expat
      -  XML::SAX::ParserFactory
      -  XML::SAX::Writer
-     -  XML::Simple --force
+     -  XML::Simple
      -  XML::Writer
      -  YAML
      -  YAML::Syck
