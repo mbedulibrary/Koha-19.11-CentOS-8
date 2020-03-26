@@ -27,6 +27,7 @@
   <li>Go to Download Location of ansible playbook</li>
   <li>Run Ansible - sudo ansible-playbook koha.yml –u koha –i inventory.ini --connection local</li>
   <li>Secure MySQL Database - sudo mysql_secure_installation</li>
+  <li>Open port for Staff Client - sudo firewall-cmd --zone=public --permanent --add-port 8080/tcp</li>
   <li>Find IP address of install server or localhost on port 8080 (localhost:8080) and begin web installation (username: kohaadmin password:katikoan)</li>
   <li>Go to About Koha and update required Perl modules manually with cpanm (ex:sudo cpanm Module::Name)</li>
   <li>Start and enable memcached at boot:
