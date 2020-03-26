@@ -10,7 +10,7 @@
 
 # Install Prerequisites
 - name: System Prerequisites
-  include: prereqyum.yml
+  include: prereqdnf.yml
 
 # Download Zebra and Yaz - Install
 - name: zebra install
