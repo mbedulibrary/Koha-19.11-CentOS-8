@@ -3,7 +3,7 @@
 
 <ol>
   <li>Install Core CentOS 8 – Choose Server software package and select Basic Web in right column, Connect to Network, set time zone, make partitions as needed, set root password and create Admin user (koha-admin) </li>
-  <li>Update CentOS – sudo dnf update</li>
+  <li>Update CentOS – sudo dnf -y update</li>
   <li>Enable EPEL Repo – sudo dnf -y install epel-release</li>
   <li>Enable PowerTools Repo – sudo dnf config-manager --set-enabled PowerTools</li>
   <li>Update Install – sudo dnf -y update</li>
