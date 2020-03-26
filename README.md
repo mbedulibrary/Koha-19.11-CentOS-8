@@ -3,10 +3,11 @@
 
 <ol>
   <li>Install Core CentOS 8 – Choose Server software package and select Server Software in right column, Connect to Network, set hostname, set time zone, make partitions as needed, set root password and create Admin user (koha-admin) </li>
-  <li>Update CentOS – sudo yum update</li>
-  <li>Enable EPEL – sudo yum -y install epel-release</li>
-  <li>Update Install – sudo yum -y update</li>
-  <li>Install apache – sudo yum install httpd
+  <li>Update CentOS – sudo dnf update</li>
+  <li>Enable EPEL Repo – sudo dnf -y install epel-release</li>
+  <li>Enable PowerTools Repo – sudo dnf config-manager --set-enabled PowerTools</li>
+  <li>Update Install – sudo dnf -y update</li>
+  <li>Install apache – sudo dnf install httpd
     <ul>
       <li>
         If local network access needed :<br>
@@ -15,10 +16,7 @@
       </li>
      </ul>
   </li>
-  <li>Install php - sudo yum install php</li>
-  <li>Install MariaDB - sudo yum install mariadb*</li>
-  <li>Install Perl – sudo yum install perl</li>
-  <li>Install Ansible, Git, cpanminus - sudo yum -y install ansible git cpanminus</li>
+  <li>Install Ansible - sudo dnf -y install ansible</li>
   <li>Create user koha, group koha and add koha (user) to koha and apache groups
     <ul>
       <li>sudo adduser koha</li>
