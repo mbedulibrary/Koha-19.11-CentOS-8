@@ -1,7 +1,7 @@
 ---
 - name: Install missing perl dependencies from CPAN
   cpanm: name={{ item }}
-  ignore_errors: yes
+  ignore_errors: no
   with_items:
      -  Algorithm::CheckDigits
      -  Alien::Tidyp
@@ -57,7 +57,7 @@
      -  File::Slurp
      -  File::Temp
      -  Font::TTF
-     -  GD --force
+     -  GD
      -  GD::Barcode::UPCE
      -  Getopt::Long
      -  Getopt::Std
@@ -65,7 +65,7 @@
      -  HTML::Entities
      -  HTML::FormatText
      -  HTML::Scrubber
-     -  HTML::Tidy --force
+     -  HTML::Tidy
      -  HTTP::Cookies
      -  HTTP::OAI
      -  HTTP::Request::Common
@@ -89,12 +89,12 @@
      -  Locale::PO
      -  Log::Log4perl
      -  MARC::Charset
-     -  MARC::File::XML --force
+     -  MARC::File::XML
      -  MARC::Record
      -  MIME::Base64
      -  MIME::Lite
      -  MIME::QuotedPrint
-     -  Mail::Sendmail --force
+     -  Mail::Sendmail
      -  Modern::Perl
      -  Module::Bundled::Files
      -  Module::Load::Conditional
@@ -106,15 +106,15 @@
      -  Net::LDAP
      -  Net::LDAP::Filter
      -  Net::SFTP::Foreign
-     -  Net::Server --force
+     -  Net::Server 
      -  Net::Z3950::ZOOM
      -  Number::Format
-     -  OpenOffice::OODoc --force
+     -  OpenOffice::OODoc
      -  PDF::API2
      -  PDF::API2::Page
-     -  PDF::API2::Simple --force
+     -  PDF::API2::Simple
      -  PDF::API2::Util
-     -  PDF::FromHTML --force
+     -  PDF::FromHTML
      -  PDF::Reuse
      -  PDF::Reuse::Barcode
      -  PDF::Table
@@ -124,9 +124,9 @@
      -  Readonly::XS
      -  SMS::Send
      -  SOAP::Lite
-     -  Schedule::At --force
+     -  Schedule::At
      -  Search::Elasticsearch
-     -  Selenium::Remote::Driver --force
+     -  Selenium::Remote::Driver
      -  Sereal::Decoder
      -  Sereal::Encoder
      -  Storable
