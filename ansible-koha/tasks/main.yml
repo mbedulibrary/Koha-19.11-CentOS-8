@@ -62,6 +62,17 @@
     chdir: /usr/share/koha/bin/migration_tools/
     creates: /var/lock/koha/zebradb/rebuild/rebuild..LCK
 
+#Open http
+- name: Open http
+  command: sudo firewall-cmd --zone=public --permanent --add-service=http
+  
+ #Open 8080
+- name: Open http
+  command: sudo firewall-cmd --zone=public --permanent --add-port 8080/tcp
+
+- name: Apply changes
+  command : sudo firewall-cmd --reload
+  
 - service:
     name: "{{ item }}"
     enabled: yes
@@ -71,4 +82,5 @@
     - zebraidx
     - zebrasrv
     - httpd
+    - memcached
 
