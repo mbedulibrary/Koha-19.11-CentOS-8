@@ -94,7 +94,7 @@
      -  MIME::Base64
      -  MIME::Lite
      -  MIME::QuotedPrint
-     -  Mail::Sendmail
+     -  Mail::Sendmail --force
      -  Modern::Perl
      -  Module::Bundled::Files
      -  Module::Load::Conditional
@@ -106,7 +106,7 @@
      -  Net::LDAP
      -  Net::LDAP::Filter
      -  Net::SFTP::Foreign
-     -  Net::Server 
+     -  Net::Server --force
      -  Net::Z3950::ZOOM
      -  Number::Format
      -  OpenOffice::OODoc
