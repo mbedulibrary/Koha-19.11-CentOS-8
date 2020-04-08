@@ -36,7 +36,7 @@
     </ul>
   </li>
 </ol>
-<strong>Never use Undo Import into Catalog, it messes up Zebra</strong>
+<strong>Never use Undo Import into Catalog, it messes up Zebra</strong><br>
 # koha-ansible-V2
 # koha-ansible-v2
 
