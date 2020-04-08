@@ -36,7 +36,13 @@
     </ul>
   </li>
 </ol>
-<strong>Never use Undo Import into Catalog, it messes up Zebra</strong><br>
+<h3>Notes</h3>
+<h4>Importing</h4>
+<ul>
+  <li><strong>Never use Undo Import into Catalog, it messes up Zebra</strong></li>
+  <li>The progress bar during import doesn't seem to work, it still imports</li>
+</ul>
+
 # koha-ansible-V2
 # koha-ansible-v2
 
