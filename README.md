@@ -27,3 +27,4 @@
     </ul>
   </li>
 </ol>
+<p><strong>NOTE: To rebuild zebra - sudo -u koha ./rebuild_zebra.pl -b -a -r -v</strong></p>
