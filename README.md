@@ -27,4 +27,4 @@
     </ul>
   </li>
 </ol>
-<p><strong>NOTE: To rebuild zebra - sudo -u koha ./rebuild_zebra.pl -b -a -r -v</strong></p>
+<p><strong>NOTE: To rebuild zebra - sudo -u koha ./rebuild_zebra.pl -b -a -r -v</strong> - Won't break permissions which will break regular zebra reindexing.</p>
