@@ -9,8 +9,8 @@
   <li>Update Install – sudo dnf -y update</li>
   <li>Create group koha and add koha (user) to koha and apache groups
     <ul>
-      <li>sudo usermod -a -G koha koha</li>
-      <li>sudo usermod -a -G apache koha</li>
+      <li>sudo usermod -aG koha koha</li>
+      <li>sudo usermod -aG apache koha</li>
     </ul>
   </li>
   <li>Install Ansible - sudo dnf -y install ansible</li>
