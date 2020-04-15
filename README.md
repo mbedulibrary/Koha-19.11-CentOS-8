@@ -16,7 +16,7 @@
   <li>Install Ansible - sudo dnf -y install ansible</li>
   <li>Clone or Download ansible playbook</li>
   <li>Go to Download Location of ansible playbook</li>
-  <li>Run Ansible - ansible-playbook koha.yml –u koha –i inventory.ini --connection local -K</li>
+  <li>Run Ansible - ansible-playbook koha.yml –u koha –i inventory.ini --connection local</li>
   <li>Secure MySQL Database - sudo mysql_secure_installation</li>
   <li>Find IP address of install server or localhost on port 8080 (localhost:8080) and begin web installation (username: kohaadmin password:katikoan)</li>
   <li>Go to About Koha and update required Perl modules manually with cpanm (ex:sudo cpanm Module::Name)</li>
