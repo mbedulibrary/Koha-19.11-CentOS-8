@@ -90,12 +90,12 @@
      -  Locale::PO
      -  Log::Log4perl
      -  MARC::Charset
-     -  MARC::File::XML --force
+     -  MARC::File::XML
      -  MARC::Record
      -  MIME::Base64
      -  MIME::Lite
      -  MIME::QuotedPrint
-     -  Mail::Sendmail --force
+     -  Mail::Sendmail
      -  Modern::Perl
      -  Module::Bundled::Files
      -  Module::Load::Conditional
@@ -107,7 +107,7 @@
      -  Net::LDAP
      -  Net::LDAP::Filter
      -  Net::SFTP::Foreign
-     -  Net::Server --force
+     -  Net::Server
      -  Net::Z3950::ZOOM
      -  Number::Format
      -  OpenOffice::OODoc
@@ -192,5 +192,3 @@
      -  PPI
      -  Parallel::ForkManager
      -  Sys::CPU
-
-
