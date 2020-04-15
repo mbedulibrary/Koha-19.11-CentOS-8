@@ -24,7 +24,7 @@
 
 #Install Koha
 - name: Run Koha installation with default options
-  shell: cd /home/koha-admin/koha-19.11.04; PERL_MM_USE_DEFAULT=1 perl Makefile.PL; make; make install
+  shell: cd /home/koha/koha-19.11.04; PERL_MM_USE_DEFAULT=1 perl Makefile.PL; make; make install
   args:
     chdir: /tmp
     creates: /usr/share/koha
