@@ -1,7 +1,7 @@
 ---
 - name: Install missing perl dependencies from CPAN
   cpanm: name={{ item }}
-  ignore_errors: no
+  ignore_errors: yes
   with_items:
      -  Algorithm::CheckDigits
      -  Alien::Tidyp
