@@ -73,7 +73,6 @@
      -  IPC::Cmd
      -  JSON
      -  JSON::Validator
-     -  Koha::Contrib::Tamil
      -  LWP::Protocol::https
      -  LWP::Simple
      -  LWP::UserAgent
