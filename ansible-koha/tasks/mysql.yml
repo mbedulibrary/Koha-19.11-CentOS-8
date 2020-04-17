@@ -6,10 +6,13 @@
   shell: service mariadb restart
 
 - name: Create a new database with name "koha"
+  become: true
   mysql_db: name=koha login_user=root login_password="" state=present
 
 - name: Create a new database user with name "kohaadmin"
+  become: true
   mysql_user: name=kohaadmin password=katikoan priv=koha.*:ALL,GRANT host=localhost state=present
 
 - name: Configure MySQL as required by Koha
+  become: true
   copy: src=../files/koha-my.cnf dest=/etc/my.cnf.d/koha-my.cnf
