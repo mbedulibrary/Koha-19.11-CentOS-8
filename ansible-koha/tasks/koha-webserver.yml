@@ -16,6 +16,7 @@
 #  user: name=koha comment="Koha server" group=koha groups=apache system=true
 
 - name: Make perl find the Koha modules
+  become: true
   file: src=/usr/share/koha/lib/{{ item }} dest=/usr/share/perl5/vendor_perl/{{ item }} state=link force=yes
   with_items:
     - C4
