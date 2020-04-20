@@ -1,8 +1,10 @@
 ---
 - name: Configure Apache as required by Koha
+  become: true
   copy: src=../files/koha-httpd.conf dest=/etc/httpd/conf.d/koha.conf
 
 - name: Configure Apache as required by Koha
+  become: true
   copy: src=../files/httpd.conf dest=/etc/httpd/conf/httpd.conf
 
 # NEED TO ADD SSL.CONF File
